@@ -238,25 +238,35 @@
     background-color: #F25C54;
     opacity: 1;
     position: absolute;
-    padding: 10px 20px;
     text-transform: uppercase;
     font-weight: 500;
-    border-radius: 3px;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.grid .btn:hover {
+    transform: scale(2);
 }
 
 .btn1 {
-    top: 50%;
+    top: 35%;
     left: 250px;
+    padding: 3.3rem 20px;
 }
 
 .btn2 {
     top: 50%;
     left: 250px;
+    padding: 4rem 20px;
 }
 
 .btn3 {
-    top: 50%;
+    top: 35%;
     left: 250px;
+    padding: 4.5rem 20px;
 }
 
 
@@ -311,7 +321,14 @@ main .main__title2 h3{
     font-family: 'Roboto', sans-serif;
     color: #fff;
     text-transform: uppercase;
+    transition: transform .3s;
 }
+
+.card .card__btn:hover {
+    transform: translate(0, -3px);
+    box-shadow: 0 10px 10px -5px #e3d0d8;
+}
+
 
 /* FIN MAIN */
 /* FIN PAGINA PRODUCTOS----------- */
